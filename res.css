@@ -1,0 +1,23 @@
+@media all and (max-width: 420px){
+    .header{
+        display: inline-block;
+        width: 100vw;
+        height: 350px;
+    }
+    h1{
+        text-align: center;
+    }
+    #box2{
+        justify-content: center;
+        width: 100vw;
+    }
+    #box3{
+        justify-content: center;
+        width: 100vw;
+    }
+    #box4{
+        justify-content: center;
+        width: 100vw;
+    }
+
+}

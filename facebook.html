@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>facebook</title>
+    <link rel="stylesheet" href="facebook.css" />
+    <!-- <link rel="stylesheet" href="res.css"> -->
+  </head>
+
+  <body>
+    <!-- -------------------------------header------------------------------ -->
+    <div class="header">
+      <h1 class="box1">facebook</h1>
+      <div id="box2">
+        <input type="checkbox" id="remember_me" name="remember_me" /><label
+          for="remember_me"
+          >Remember Me</label
+        ><br />
+        <input type="email" id="email" name="email" placeholder="Email" />
+      </div>
+      <div id="box3">
+        <a href="#">Forgot your password?</a><br />
+        <input type="password" id="password" name="password" />
+      </div>
+      <div id="box4">
+        <input type="submit" id="login" name="login" value="Login" />
+      </div>
+    </div>
+    <!-- -----------------------------page --------------------------------->
+    <div class="page">
+      <!-- p-------------------------page division 1 --------------------->
+      <div id="page-box1">
+        <p class="quote">
+          Facebook helps you connect and share with <br />the people in your
+          life.
+        </p>
+        <img id="img1" src="images/image1.png"/>
+      </div>
+      <!-- p-------------------------page division 2 --------------------->
+      <div id="page-box2">
+        <div>
+          <p id="p-signup">
+            <span id="p-1">Sign up </span><br /><span id="p-2"
+              >It's free and anyone can join</span
+            >
+          </p>
+        </div>
+        <div style="margin-left: 100px">
+          <div class="personal">
+            <label for="fname" class="lb">First Name:</label>
+            <input type="text" id="fname" name="fname" /><br />
+            <label for="lname" class="lb">Last Name:</label>
+            <input type="text" id="lname" name="lname" /><br />
+            <label for="email" class="lb">Email:</label>
+            <input type="email" id="email" name="email" /><br />
+            <label for="new_password" class="lb">New Password:</label>
+            <input
+              type="password"
+              id="new_password"
+              name="new_password"
+            /><br />
+          </div>
+
+          <label for="sex" class="lb">I am:</label>
+          <select id="sex" style="height: 25px">
+            <option selected>Select Sex</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option></select
+          ><br />
+
+          <label for="dob" class="lb">Birthday:</label>
+          <input
+            type="month"
+            id="dob"
+            name="dob"
+            style="width: 70px; height: 25px"
+          />
+          <input
+            type="number"
+            id="day"
+            name="day"
+            placeholder="Day:"
+            style="width: 60px; height: 25px"
+          />
+          <input
+            type="number"
+            id="year"
+            name="year"
+            placeholder="Year:"
+            style="width: 60px; height: 25px"
+          />
+          <p id="why">Why do i need to provide this?</p>
+          <div class="signup">
+            <input type="submit" id="signup" name="signup" value="Sign Up" />
+          </div>
+
+          <!-- horizontal rule -->
+          <hr />
+
+          <p>
+            <span id="create">Create a Page</span> for a celebrity, band or
+            business.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

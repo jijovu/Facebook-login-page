@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+/* -----------------------------------------header------------------------------- */
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3F5C9A;
+    color: white;
+    height: 100px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 50px;
+}
+#box2{
+    margin-left: 50%;
+    margin-top: 26px;
+    padding-right: 10px;
+}
+#remember_me{
+    margin-left: 57px;
+}
+#box2 input{
+    height: 20px;
+}
+#box3{
+    margin-top:35px;
+}
+#box3 a{
+    margin-left: 24px;
+}
+#box3 input{
+    height: 20px;
+}
+#box4{
+    margin-right: 50px;
+    margin-top: 35px;
+}
+#box4 input{
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+    font-weight:bold;
+    color: #fff;
+    background-color: #536ea7;
+    height: 30px;
+    width: 60px;
+    margin-top: 15px;
+}
+
+#box3 a {
+    color: #fff;
+    text-decoration: none;
+}
+/* -----------------------------------------Page---------------------------------- */
+
+
+.page {
+    display: flex;
+    justify-content: space-between;
+    height: 657px;
+    background: linear-gradient(#FEFEFF, #a6accc);
+    height: 100vh;
+}
+#page-box1{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.quote {
+    color: 	#010054;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+#page-box1 img{
+    width: 650px;
+    height: 250px;
+}
+/* ------------------------------page division 2-------------------------------- */
+#page-box2{
+    /* margin-right: 100px; */
+    margin-top: 50px;
+    width: 630px;
+}
+
+#p-1{
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #010054;
+}
+#p-2{
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+    font-size: 35px;
+    color: #010054;
+}
+
+#why{
+    color: #010054;
+    margin-left: 105px;
+}
+
+.personal input{
+    width: 300px;
+    height: 25px;
+}
+.lb{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+.signup{
+    margin-left: 105px;
+}
+.signup input{
+    font-size: 19px;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    width: 120px;
+    padding: 7px 20px;
+    text-align: center;
+    background: linear-gradient(#67ae55, #578843);
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+hr{
+    width: 90%;
+    margin-right: 50px;
+    color: black;
+}
+#create{
+    color: #4745be;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
